@@ -102,25 +102,25 @@ Seven visualisations were produced to understand the data before modelling:
 | 7 | Correlation Heatmap | Age and NumOfProducts show the strongest correlation with Exited |
 
 ### Target Variable Distribution
-![Target Distribution](Customer-Churn-Prediction/images/01_target_distribution.png)
+![Target Distribution](Customer-Churn-Prediction/Images/01_target_distribution.png)
 
 ### Age Distribution by Churn
-![Age Distribution](Customer-Churn-Prediction/images/02_age_distribution.png)
+![Age Distribution](Customer-Churn-Prediction/Images/02_age_distribution.png)
 
 ### Balance Distribution by Churn
-![Balance Distribution](Customer-Churn-Prediction/images/03_balance_distribution.png)
+![Balance Distribution](Customer-Churn-Prediction/Images/03_balance_distribution.png)
 
 ### Churn Rate by Geography
-![Churn by Geography](Customer-Churn-Prediction/images/04_churn_by_geography.png)
+![Churn by Geography](Customer-Churn-Prediction/Images/04_churn_by_geography.png)
 
 ### Churn Rate by Number of Products
-![Churn by Products](Customer-Churn-Prediction/images/05_churn_by_products.png)
+![Churn by Products](Customer-Churn-Prediction/Images/05_churn_by_products.png)
 
 ### Active Member vs Credit Card
-![Active Member](Customer-Churn-Prediction/images/06_active_member_creditcard.png)
+![Active Member](Customer-Churn-Prediction/Images/06_active_member_creditcard.png)
 
 ### Correlation Heatmap
-![Correlation Heatmap](Customer-Churn-Prediction/images/07_correlation_heatmap.png)
+![Correlation Heatmap](Customer-Churn-Prediction/Images/07_correlation_heatmap.png)
 
 ---
 
@@ -159,13 +159,13 @@ Seven visualisations were produced to understand the data before modelling:
 | ROC-AUC | ~77% | ~86% |
 
 ### Confusion Matrices
-![Confusion Matrices](Customer-Churn-Prediction/images/08_confusion_matrices.png)
+![Confusion Matrices](Customer-Churn-Prediction/Images/08_confusion_matrices.png)
 
 ### ROC Curve Comparison
-![ROC Curve](Customer-Churn-Prediction/images/09_roc_curve.png)
+![ROC Curve](Customer-Churn-Prediction/Images/09_roc_curve.png)
 
 ### Feature Importance
-![Feature Importance](Customer-Churn-Prediction/images/10_feature_importance.png)
+![Feature Importance](Customer-Churn-Prediction/Images/10_feature_importance.png)
 
 > **Best Model: Random Forest:** outperforms Logistic Regression on all metrics, especially ROC-AUC and F1 Score for the churn class.
 
