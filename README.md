@@ -191,17 +191,14 @@ Seven visualisations were produced to understand the data before modelling:
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-| Technology | Version | Purpose |
-|---|---|---|
-| Python | 3.x | Core programming language |
-| Jupyter Notebook | — | Interactive development environment |
-| pandas | Latest | Data loading, cleaning, manipulation |
-| NumPy | Latest | Numerical computations |
-| matplotlib | Latest | Base visualisation library |
-| seaborn | Latest | Statistical visualisations and heatmaps |
-| scikit-learn | Latest | Encoding, scaling, model training, evaluation |
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Models-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualisation-red)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualisation-purple)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-yellow)
 
 ---
 
