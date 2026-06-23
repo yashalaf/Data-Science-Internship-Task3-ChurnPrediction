@@ -25,7 +25,18 @@ Customer-Churn-Prediction/
 │
 ├── Task3_CustomerChurnPrediction.ipynb   # Main notebook full ML pipeline
 ├── ChurnModelling.csv                       # Raw dataset
-└── README.md                                # Project documentation (this file)
+├── README.md                                # Project documentation (this file)
+└── Images/
+           ├── 01_target_distribution.png
+           ├── 02_age_distribution.png
+           ├── 03_balance_distribution.png
+           ├── 04_churn_by_geography.png
+           ├── 05_churn_by_products.png
+           ├── 06_active_member_creditcard.png
+           ├── 07_correlation_heatmap.png
+           ├── 08_confusion_matrices.png
+           ├── images/09_roc_curve.png
+           ├── 10_feature_importance.png
 ```
 
 ---
@@ -90,6 +101,27 @@ Seven visualisations were produced to understand the data before modelling:
 | 6 | Active Member vs Credit Card | Inactive members churn at ~27% vs ~14% for active members |
 | 7 | Correlation Heatmap | Age and NumOfProducts show the strongest correlation with Exited |
 
+### Target Variable Distribution
+![Target Distribution](Customer-Churn-Prediction/images/01_target_distribution.png)
+
+### Age Distribution by Churn
+![Age Distribution](Customer-Churn-Prediction/images/02_age_distribution.png)
+
+### Balance Distribution by Churn
+![Balance Distribution](Customer-Churn-Prediction/images/03_balance_distribution.png)
+
+### Churn Rate by Geography
+![Churn by Geography](Customer-Churn-Prediction/images/04_churn_by_geography.png)
+
+### Churn Rate by Number of Products
+![Churn by Products](Customer-Churn-Prediction/images/05_churn_by_products.png)
+
+### Active Member vs Credit Card
+![Active Member](Customer-Churn-Prediction/images/06_active_member_creditcard.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](Customer-Churn-Prediction/images/07_correlation_heatmap.png)
+
 ---
 
 ## Model Training
@@ -125,6 +157,15 @@ Seven visualisations were produced to understand the data before modelling:
 | Recall (Churn) | ~20% | ~51% |
 | F1 Score (Churn) | ~29% | ~61% |
 | ROC-AUC | ~77% | ~86% |
+
+### Confusion Matrices
+![Confusion Matrices](Customer-Churn-Prediction/images/08_confusion_matrices.png)
+
+### ROC Curve Comparison
+![ROC Curve](Customer-Churn-Prediction/images/09_roc_curve.png)
+
+### Feature Importance
+![Feature Importance](Customer-Churn-Prediction/images/10_feature_importance.png)
 
 > **Best Model: Random Forest:** outperforms Logistic Regression on all metrics, especially ROC-AUC and F1 Score for the churn class.
 
