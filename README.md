@@ -1,4 +1,4 @@
-# Bank-Customer-Churn-Prediction-ML
+# Customer-Churn-Prediction
 
 > A supervised machine learning project to predict customer churn in a bank using Logistic Regression and Random Forest Classifier.
 ---
